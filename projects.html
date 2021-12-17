@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href = "stylesheet.css">
+    <link rel="icon" type = "image/png" href = "images/logo_white.png">
+
+<style>
+
+.pink-container {
+  border-radius: 25px;
+  background: #fa448c;
+  /* background: #fa448c; */
+  padding: 20px; 
+  grid-gap: 10px;
+}
+.yellow-container {
+  border-radius: 25px;
+  background: #fcc201;
+  /* background: #fec859; */
+  padding: 20px;
+  grid-gap: 10px; 
+}
+.green-container {
+  border-radius: 25px;
+  background: #43b5a0;
+  padding: 20px; 
+  grid-gap: 10px; 
+}
+.purple-container {
+  border-radius: 25px;
+  /* background: rgb(170, 128, 170); */
+  /* background: #7a3bd4;  */
+  background: #a45ee5;
+  padding: 20px; 
+  grid-gap: 10px; 
+  
+}
+
+h2{
+  font-size: 28px;
+}
+
+.par{
+    padding: 10px;
+}
+
+</style>
+</head>
+
+<body id="main" role="main">
+  <div class="header1" >
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">
+          <img id="MyLogo" src= "images/logo_black.png" height="60" alt="logo" style= "float: left;">
+        </a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="projects.html" class="active" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="photography.html" class="nav-link">Photography</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+  </div>
+
+<div class="grid-container">
+  <!-- <div class="logo">
+    <img src= "images/logo_black.png" width="100" alt="logo" style= "float: left;">
+  </div>
+  <div class="menuWindow">
+  <div class="topnav">
+    <a class="active" href="index.html"> Home</a>
+    <a href="about.html"> About</a>
+    <a href="projects.html"> Projects</a>
+    <a href="resume.html"> Photography</a>
+  </div>
+  </div> -->
+
+  <div class="title" style="display: block;text-align: center;"> 
+    <h1> My Projects</h1>
+    <button class="button" onclick="myFunction()">Dark mode</button>
+
+  </div>  
+
+  
+    
+  <div class="left">
+    <div class ="pink-container">
+      <h2>Distorted</h2>
+        <p style="padding: 8px">"Distorted" is a project created to visualize racial stereotypes in an interactive way. It was a joint Arduino-Processing code meant to expose a user to what it feels like to be profiled based on their race or ethnicity."</p>
+        <!-- <video width="400" controls>
+          <source src="https://www.youtube.com/watch?v=q5OcIaaoSwE" type="video/mp4">
+        </video>           -->
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/q5OcIaaoSwE" style="width:100%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="par">
+          <a href= "https://github.com/arianaalvarezv/Distorted-faceProcessor">see project on github</a>
+        </p>
+      </div>
+    
+    <div class ="green-container">
+      <h2>iCups</h2>
+      <p style="padding: 8px">iCups was an arduino project developed to help users feel connected with their families abroad. This magical coffee mug helps two users at different distances feel each other when drinking from it.</p>
+      <img src= "images/iCups.jpg" height="300" alt="iCups" style= "width: 100%">
+      <p class="par">
+        <a href= "https://github.com/arianaalvarezv/Interactive-cupsArduino">see project on github</a>
+      </p>
+    </div>
+
+  </div>
+  <div class="right">
+    <div class ="yellow-container">
+      <h2>Game of Life</h2>
+      <p style="padding: 8px">The Game of Life is a java project that simulates cell regeneration. The game can be configured in a square or hexagonal grid, to allow the user to view how cells die and come to life.</p>
+      <!-- <video width="400" height="230" controls>
+        <source src="videos/GOL.mov" type="video/mov" style="width:100%">
+      </video> -->
+      <iframe width="400" height="300" src="https://www.youtube.com/embed/q_f-tWFEGck" style="width:100%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p class="par">
+        <a href= "https://github.com/arianaalvarezv/Game-Of-Life">see project on github</a>
+      </p>
+    </div>
+    
+    <div class ="purple-container">
+      <h2>Albert 2.0</h2>
+      <p style="padding: 8px">Albert 2.0 is an all-integrated Course Registration System designed in Java using Object-Oriented Programming, to help admins and students better navigate their registration experience.</p>
+      <img src= "images/CRS.png" height="300" alt="CRS" style= "width: 100%">
+      <p class="par">
+        <a href= "https://github.com/arianaalvarezv/Course-Registration-System">see project on github</a>
+      </p>
+    </div>
+  </div>
+</div>
+<script src="myscript.js" ></script>
+
+<!-- <script>
+  function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+     document.getElementById("MyLogo").src = "images/logo_white.png";
+
+  }
+  </script> -->
+
+</body>
+</html>
