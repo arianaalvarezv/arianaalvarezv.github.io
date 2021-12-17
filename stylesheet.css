@@ -279,6 +279,10 @@ a {
     grid-gap: 10px;
     padding: 40px; 
   }
+  
+  .headshot-pic{
+    width: 100%;
+  }
   /* .column {
     -ms-flex: 50%;
     flex: 50%;
