@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariana Alvarez</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type = "image/png" href = "images/logo_white.png">
+
+<style>
+
+  /* .button {
+    background-color: coral; 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    opacity:0.6;
+  }
+
+  .button:hover {opacity: 1} */
+
+  .par{
+    padding: 5px;
+  }
+  .flex-center{
+    margin: auto;
+    /* width: 50%; */
+    padding: 10px;
+    vertical-align: center;
+    /* align-items: center; */
+  }
+
+  
+
+</style>
+</head>
+
+<body id="main" role="main" onload="typeWriter();">
+  <div class="header1"> 
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">
+          <img id="MyLogo" src= "images/logo_black.png" height="60" alt="logo" style= "float: left;">
+        </a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="active"class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="projects.html" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="photography.html" class="nav-link">Photography</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+  </div>
+
+<div class="grid-container">
+  <!-- <div class="logo">
+    <img src= "images/logo_black.png" width="100" alt="logo" style= "float: left;">
+  </div>
+  <div class="menuWindow">
+  <div class="topnav">
+    <a class="active" href="index.html"> Home</a>
+    <a href="about.html"> About</a>
+    <a href="projects.html"> Projects</a>
+    <a href="resume.html"> Photography</a>
+  </div>
+  </div> -->
+
+  <div class="title" style="display: block;text-align: left;"> 
+
+  </div>  
+  
+    
+  <div class="left" >
+    <div class = "flex-center">
+    <h1 id="heading" > </h1>
+    <p class="par">
+      Computer Science @ NYU
+    </p>
+    <button class="button" onclick = "changeLocation()">
+      More About Me 
+    </button>
+  </div>
+  </div>
+  <div class="right">
+    <img src= "ariana.svg" width="600" alt="Ariana Alvarez" style="display:block;align-items: center; width:100%; vertical-align: center;">
+    <!-- <img src= "images/letters.png" width="600" alt="Ariana Alvarez" style="align-items: center; top: 20%"> -->
+
+  </div>
+
+</div>
+<script src="myscript.js" ></script>
+
+</body>
+</html>
