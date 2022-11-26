@@ -23,7 +23,8 @@ body {
 }
 
 h1{
-  font-family:newFont;
+  /* font-family:newFont; */
+  font-style: bold;
   font-size: 50px;
   text-align: center;
 }
@@ -52,6 +53,9 @@ p{
 .right {
   grid-area: myArea5;
 }
+.bottom {
+  grid-area: myArea6;
+}
 
 
 .grid-container > div {
@@ -59,6 +63,7 @@ p{
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+  padding-bottom: 20px;
 }
 
 .button {
@@ -254,7 +259,8 @@ a {
     grid-template:
     'myArea1 myArea2 '
     'myArea3 myArea3 '
-    'myArea4 myArea5 ';
+    'myArea4 myArea5 '
+    'myArea6 myArea6';
     
     grid-gap: 10px;
     padding: 40px; 
@@ -274,14 +280,11 @@ a {
     'myArea1 myArea2 '
     'myArea3 myArea3 '
     'myArea4 myArea4 '
-    'myArea5 myArea5 ';
+    'myArea5 myArea5 '
+    'myArea6 myArea6';
 
     grid-gap: 10px;
     padding: 40px; 
-  }
-  
-  .headshot-pic{
-    width: 100%;
   }
   /* .column {
     -ms-flex: 50%;
